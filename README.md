@@ -3,7 +3,7 @@ Personal Portfolio Website
 
 This is my personal portfolio website built using HTML, CSS, and JavaScript. It's a simple yet responsive site where I showcase my projects, skills, and a little bit about myself as an Informatics student at President University.
 
- What’s Inside
+# What’s Inside
 * Home – A short intro and photo of me
 * About – Who I am, what I’m learning, and my interests
 * Portfolio – Some of the projects I've worked on
@@ -11,7 +11,7 @@ This is my personal portfolio website built using HTML, CSS, and JavaScript. It'
 * Skills – Languages and tools I’m currently using
 * Contact – A form where visitors can leave me a message (with EmailJS integration)
 
-  Tech Stack
+# Tech Stack
 * HTML5
 * CSS3
 * JavaScript
@@ -19,7 +19,7 @@ This is my personal portfolio website built using HTML, CSS, and JavaScript. It'
 * EmailJS (for contact form functionality)
 * Google Fonts + Font Awesome / Devicon for stylin
 
-  Future Plans
+# Future Plans
 Add more finished projects
 Improve mobile responsiveness
 Add work experience
