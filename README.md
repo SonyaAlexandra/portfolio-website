@@ -24,3 +24,17 @@ This is my personal portfolio website built using HTML, CSS, and JavaScript. It'
 - Improve mobile responsiveness
 - Add work experience
 - Resume downloader
+
+## How to Run
+
+1. Clone the repository  
+  https://github.com/SonyaAlexandra/portfolio-website
+
+2. Go into the folder  
+   `cd WebsitePortofolio`
+
+3. Run using Docker Compose  
+   `docker-compose up`
+
+4. Open your browser at  
+   `http://localhost:8080`
