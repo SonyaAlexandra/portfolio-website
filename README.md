@@ -20,7 +20,7 @@ This is my personal portfolio website built using HTML, CSS, and JavaScript. It'
 * Google Fonts + Font Awesome / Devicon for stylin
 
 # Future Plans
-Add more finished projects
-Improve mobile responsiveness
-Add work experience
-Resume downloader
+- Add more finished projects
+- Improve mobile responsiveness
+- Add work experience
+- Resume downloader
