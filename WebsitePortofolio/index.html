@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonya Paleng Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Jua&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+   (function(){
+      emailjs.init({
+        publicKey: "oZtUvVT8WaK9I9PyX",
+      });
+   })();
+</script>
+<script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <a href="#home-page">Sonya Paleng</a>
+            </div>
+            <div class="right">
+                <a href="#about-page">About me</a>
+                <a href="#portofolio-page">Portfolio</a>
+                <a href="#skills-page">Skills</a>
+                <a href="#contact-page">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <section id="home-page">
+        <h2>Hello World! I'm Sonya</h2>
+        <p class="subtitle">IoT Developer • Web Developer</p>
+        <div class="headshot">
+            <picture>
+                <img src="images/headshot.png" alt="headshot">
+            </picture>
+        </div>
+        <div class="social-links">
+            <a href="https://www.instagram.com/sonyaalxndr?igsh=b2ZxZmJ0dHJqbmZ6" target="_blank">
+               <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/sonya-alexandra-paleng-ab626728b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                <i class="devicon-linkedin-plain"></i>
+            </a>
+            <a href="https://github.com/SonyaAlexandra" target="_blank">
+                <i class="devicon-github-plain"></i>
+            </a>
+        </div>
+    </section>
+    <div class="divider">
+        <section id="about-page">
+            <h2>About Me</h2>
+    <div class="bio">
+        <p>Hi! I’m Sonya Alexandra Paleng, an Informatics student at President University, currently in my second year. I’m concentrating on the Internet of Things (IoT), but my interests go beyond that. I’m also actively exploring web development, and currently learning more about UI/UX design and data.
+
+I love discovering new tools and skills, and I believe that impactful technology isn’t just about how it works—but also how it feels to use.</p>
+        <p>Outside of tech, I’m a big fan of movies. I enjoy watching all kinds of genres, but coming-of-age films hold a special place in my heart. They often offer fresh perspectives and emotional depth, which sometimes even influence how I think and create.</p>
+        <p>If you’re working on something exciting—especially in IoT or web development—or just want to share movie recommendations, feel free to reach out!</p>
+
+    </div>
+    </section>
+    <div class="divider"></div>
+    <section id="portofolio-page">
+        <h2>Portfolio</h2>
+
+        <!-- Software Projects Subsection -->
+        <div class="portofolio-subpage">
+            <h3>Software</h3>
+      <div #swiperRef="" class="swiper card-swiper">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="https://github.com/SonyaAlexandra/BRIN-AutonomousMonitoringControlSystem" target="_blank" class="portofolio-box">
+                        <picture>
+                            <img src="images/AMCS.png" alt="BRIN-AutonomousMonitoringControlSystem">
+                        </picture>
+                        <h4>Autonomous Monitoring Control System</h4>
+                        <h5><em>Arduino uno, C++, </em></h5>
+                        <p>An IoT-driven environmental monitoring and automation system developed during my Bootcamp Activity at BRIN.</p>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://github.com/SonyaAlexandra/Final-Robotic.git" target="_blank" class="portofolio-box">
+                        <picture>
+                            <img src="images/FinalRobotic.png" alt="Final-Robotic">
+                        </picture>
+                        <h4>Autonomous Mobile Robot</h4>
+                        <h5><em>Arduino uno, C++</em></h5>
+                        <p>A group project for final Robotics. We combine a car robot and a robotic arm into one system — and also add sensors, avoid obstacles using PID, pick up objects using a 4-servo robotic arm, and detect fire with a flame sensor.</p>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://github.com/SonyaAlexandra/Project-Car.git" target="_blank" class="portofolio-box">
+                        <picture>
+                            <img src="images/ProjectCar.png" alt="Project-Car">
+                        </picture>
+                        <h4>obstacle-avoiding car</h4>
+                        <h5><em>Arduino uno, C++</em></h5>
+                        <p>A simple group project about obstacle-avoiding robot, we made it using an ultrasonic sensor, DC motors, and a servo motor</p>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://github.com/SonyaAlexandra/portfolio-website.git" target="_blank" class="portofolio-box">
+                        <picture>
+                            <img src="images/Portfolioweb.png" alt="Portfolio-Website">
+                        </picture>
+                        <h4>Portofolio Website</h4>
+                        <h5><em>HTML, CSS, Javascript</em></h5>
+                        <p>A personal portfolio website built using HTML, CSS, and JavaScript. It's a simple yet responsive site where I showcase my projects, skills, and a little bit about myself.</p>
+                    </a>
+                </div>
+                  <div class="swiper-slide">
+                    <a href="https://github.com/SonyaAlexandra/Library-website.git" target="_blank" class="portofolio-box">
+                        <picture>
+                            <img src="images/Librarywise.png" alt="Library-website">
+                        </picture>
+                        <h4>Library Readwise</h4>
+                        <h5><em>php</em></h5>
+                        <p>A simple library management application using the PHP programming language and has the capability access of CRUD (Create, Read, Update, and Delete). This library management application is a system designed to help manage the book collection and borrowing process</p>
+                    </a>
+                </div>
+     </div>
+    </div>
+    </div>
+      <!-- Certifications -->
+      <div class="portofolio-subpage">
+  <h3>Certifications</h3>
+  <div class="cert-grid">
+    <div class="cert-card" onclick="showCertificate('https://drive.google.com/file/d/1TVcOi-vkxt8JIF3E3nScRNNJ5eqmIgM8/preview')">
+      <img src="images/duolingologo.png" alt="DET Logo" class="cert-icon-img" />
+      <h4>Duolingo English Test (DET)</h4>
+      <p><em>by Duolingo</em></p>
+      <p><strong>Score: 100</strong></p>
+    </div>
+    <div class="cert-card" onclick="showCertificate('https://drive.google.com/file/d/1hNHordXEMKH2DWPktRTx7HMdg0vwhJxL/preview')">
+      <img src="images/BRINlogo.png" alt="BRIN Logo" class="cert-icon-img" />
+      <h4>IoT Bootcamp Certificate</h4>
+      <p><em>by Badan Riset dan Inovasi Nasional (BRIN)</em></p>
+    </div>
+  </div>
+  <div id="cert-modal" class="modal hidden">
+  <span class="close" onclick="hideCertificate()">&times;</span>
+  <iframe id="cert-frame" src="" frameborder="0" allowfullscreen></iframe>
+</div>
+</section>
+<div class="divider"></div>
+<section id="skills-page">
+  <h2>Skills</h2>
+
+  <h3>Development</h3>
+  <div class="skills-container">
+    <i class="devicon-html5-plain"></i>
+    <i class="devicon-css3-plain"></i>
+    <i class="devicon-arduino-plain"></i> 
+    <i class="devicon-python-plain"></i>
+    <i class="devicon-cplusplus-plain"></i>
+    <i class="devicon-java-plain"></i>
+    <i class="devicon-javascript-plain"></i>
+    <i class="devicon-php-plain"></i>
+    <i class="devicon-flutter-plain"></i>
+  </div>
+
+  <h3>Tools</h3>
+  <div class="skills-container">
+    <i class="devicon-vscode-plain"></i>
+    <i class="devicon-canva-plain colored"></i>
+    <i class="devicon-mysql-plain colored"></i>
+    <i class="devicon-firebase-plain"></i>
+    <i class="devicon-github-original colored"></i>
+    <i class="devicon-figma-plain colored"></i>
+    <i class="devicon-androidstudio-plain"></i>
+  </div>
+</section>
+
+
+   <div class="divider"></div>
+   <section id="contact-page" class="contact-section">
+   <h2>Leave a message!</h2>
+  <p>Drop your details.</p>
+  
+  <div class="form-container">
+    <form id="contact-form">
+      <input type="text" id="name" name="name" placeholder="Full Name" required />
+      <input type="email" id="email" name="email" placeholder="Email Address" required />
+      <input type="text" id="subject" name="subject" placeholder="Subject" required />
+      <textarea id="message" name="message" rows="5" placeholder="Your message here..." required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</section>
+
+     <!-- Swiper JS -->
+    <footer>
+        <p>&copy; <span id="year"></span> sonya paleng. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
